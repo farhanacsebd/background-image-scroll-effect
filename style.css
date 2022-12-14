@@ -1,5 +1,4 @@
 *{
-    padding: 0%;
     margin: 0%;
     font-family: sans-serif;
 }
@@ -7,10 +6,29 @@
 .bg-image{
     height: 100vh;
     width: 100%;
-    background-image: url(./bg.jpg);
+    background-image: url(./bg1.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: 160%;
+    background-attachment:fixed;
+}
+
+.container{
+    padding: 100px;
+}
+
+.container h1{
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+p{
+    color: gray;
+}
+
+@media (max-width: 500px) {
+    .container{
+        padding: 10px;
+    }   
 }
 
